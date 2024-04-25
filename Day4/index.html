@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <Pre>
+        <h3>Forms in HTML5</h3>
+    </Pre>
+    <!-- action="welcome.html" target="_blank" method="get" -->
+    <!-- novalidate -->
+    <form>
+        <fieldset>
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" id="first_name"><br><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name"><br><br>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" disabled><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com"><br><br>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars" size="1">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select><br><br>
+            <label for="msg">Type Your Message</label><br>
+            <textarea name="message" rows="5" cols="30">
+The cat was playing in the garden.
+            </textarea><br><br>
+            <input list="browsers">
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist><br><br>
+            <input type="radio" name="gender" id="male" value="Male" checked> 
+            <label for="male">Male</label> <br><br>
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
