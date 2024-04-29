@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul .a {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+ul .a:hover {
+    /* text-decoration-line: underline;
+    text-decoration-color: #ffb703;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px; */
+    text-decoration: underline orange wavy 3px;
+
+
+}
