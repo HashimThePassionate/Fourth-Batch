@@ -1,0 +1,37 @@
+.txtsh{
+    background-color: black;
+    text-shadow: 2px 5px 3px orange;
+    /* font-family:poppins; */
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    color:white;
+    text-align: center;
+}
+.container1{
+    background-color: orange;
+    border: 2px solid black;
+    outline: 2px solid red;
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px 40px;
+    box-sizing: content-box;
+}
+.container2{
+    background-color: orange;
+    border: 2px solid black;
+    outline: 2px solid red;
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    margin: 50px 70px;
+    box-sizing: border-box;
+}
+.poppins-light {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: white;
+  }
