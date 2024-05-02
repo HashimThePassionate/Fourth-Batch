@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    background-color: rgba(149, 55, 237,0.6);
+    padding: 50px;
+    width: 250px;
+    top: 40%;
+    left: 0;
+}
+.sub{
+    position: absolute;
+    background-color: rgba(249, 217, 178,0.8);
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    top: 0;
+    right: 0;
+}
