@@ -1,0 +1,81 @@
+.container {
+    border: 3px solid lightblue;
+    /* ----------------------------------------- */
+    /* To enable flex apply flex property */
+    display: flex;
+    /* to control the direction we use */
+    flex-direction: row;
+    /* default is row */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex directions */
+/* ---------------------------------------- */
+/* for align-items we use  */
+/* 1. justify-content (along the main axis)  */
+/* 2. align-items (alogn the cross axis)*/
+/* --------------------------------------------- */
+/* for aligning items horizontaly we use  */
+/* justify-content: end; */
+/* justify-content: start; */
+/* justify-content: center; */
+/* justify-content: space-around; */
+/* justify-content: space-evenly; */
+/* justify-content: space-between; */
+justify-content: center;
+/* --------------------------------------- */
+/* To align items vertically we need height to align cross axis 
+*/
+height: 90vh;
+align-items: start;
+align-items: end;
+align-items: center;
+/* ----------------------------------------- */
+/* lets add  more boxes  */
+/* lets wrap  boxes  */
+/* flex-wrap: nowrap;
+flex-wrap: wrap;
+align-content: center;
+align-content: start;
+align-content: end;
+align-content: space-around;
+align-content: space-evenly;
+align-content: space-between; */
+/* ---------------------------------------------- */
+/* Sizing items */
+/* Flex-basis (The initial size of a flex item) */
+/* flex-grow (The growth factor) */
+/* flex-shrink (The shrink factor)*/
+/* flex (The shorthand) */
+
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    width: 5rem;
+    background: gold;
+    margin: 1rem;
+    /* flex-basis */
+    /* if our box direction is row
+    and we apply flex-basis property than browser
+    will override width 5rem to our flex-basis as goes to column direction*/
+    /* flex-basis: 10rem; */
+    flex-basis: 5rem;
+    /*Look we have so much available space
+    we need to use flex-grow to cover that area  */
+    flex-grow: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex: 1 1 10rem;
+}
+.box-one{
+    /* to apply items separate direction  */
+    /* align-self: start; */
+    /* align-self: end; */
+    /* flex-basis: 5rem; */
+    /* flex-grow: 0; */
+    /* flex-grow: 0; */
+    /* flex-shrink: 0; */
+
+}
