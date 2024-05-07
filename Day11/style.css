@@ -1,0 +1,29 @@
+.container{
+    border: 2px solid lightgray;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    'header header header header header'
+    'menu main main main sidebar'
+    'menu footer footer footer footer'
+    ;
+    height: 100vh;
+}
+.Box{
+    background: gold;
+}
+.box-1{
+    grid-area: header;
+}
+.box-2{
+    grid-area: main;
+}
+.box-3{
+    grid-area: menu;
+}
+.box-4{
+    grid-area: sidebar;
+}
+.box-5{
+    grid-area: footer;
+}
