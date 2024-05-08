@@ -1,0 +1,39 @@
+.container1 {
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box {
+    /* background-color: gold; */
+    font-size: 20px;
+    padding: 20px;
+}
+
+.box:nth-last-of-type(1) {
+    background-color: salmon;
+}
+
+@media screen and (min-width:500px) {
+    .container1 {
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .container1 {
+        border: 10px solid orange;
+    }
+
+    .box {
+        background-color: blueviolet;
+        color: white;
+        font-size: 25px;
+    }
+
+    .box:nth-last-of-type(1) {
+        background-color: burlywood;
+        color: white;
+        font-size: 25px;
+    }
+}
